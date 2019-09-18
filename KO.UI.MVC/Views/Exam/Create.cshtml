@@ -1,0 +1,96 @@
+﻿@model CreateExamDTO
+@{
+    ViewData["Title"] = "Create";
+}
+@{
+    List<char> OptionC = new List<char> { 'A', 'B', 'C', 'D' };
+    List<SelectListItem> TEST = new List<SelectListItem>();
+    TEST.Add(new SelectListItem { Text = "A", Value = "A" }); TEST.Add(new SelectListItem { Text = "B", Value = "B" }); TEST.Add(new SelectListItem { Text = "C", Value = "C" }); TEST.Add(new SelectListItem { Text = "D", Value = "D" });
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <form asp-action="Create" asp-controller="Exam">
+                <div class="col-lg-12">  @Html.DropDownListFor(x => x.Description, (IEnumerable<SelectListItem>)ViewBag.Subject, new { @id = "Title", @class = "form-control", style = "margin-left:350px; width:500px; margin-top:5px;" })</div>
+                <div class="col-lg-12" id="test">
+
+
+                </div>
+                <hr />
+                <div class="col-lg-12">
+                    <table  style="width:100%">
+                        @for (int i = 0; i < 4; i++)
+                        {
+                            <tr>
+
+                                <td colspan="2"><input asp-for="Question[i].Question" style="width:100%" placeholder="Question :@(i + 1)" /></td>
+
+                            </tr>
+                            @for (int j = 0; j < 4; j++)
+                            {
+                                if (j % 2 == 0)
+                                {
+                                    @Html.Raw("<tr>")
+                                }
+
+                                <td><input asp-for="Question[i].Options[j].Option" style="width:100%" placeholder="@OptionC[j])" /></td>
+
+                                if (j % 2 == 1)
+                                {
+                                    @Html.Raw("</tr>")
+                                }
+
+
+                            }
+                            <tr>
+
+                                <td colspan="2">
+                                    @Html.DropDownListFor(x => x.Question[i].Answer, (IEnumerable<SelectListItem>)TEST, new { @class = "form-control", style = "margin-left:350px; width:35%; margin-top:5px;" })
+                                </td>
+
+                            </tr>
+                        }
+                        <tr>
+
+                            <td colspan="2">
+                                <input class="btn-outline-dark" style="font-size:20px;margin-left:47%;margin-top:15px" type="submit" value="Create" />
+                            </td>
+
+                        </tr>
+                    </table>
+
+                </div>
+
+                <br />
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section Script
+    {
+    <script>
+        $(function (abc) {
+            $('#Title').change(function () {
+                var testvalue = $('#Title').val();
+                $.ajax({
+                    url: '@Url.Action("_Desc", "Exam")',
+                    dataType: 'HTML',
+                    type: 'GET',
+                    // This is query string i.e. country_id=123
+                    data: { test: testvalue },
+                    success: function (data) {
+                        $('#test').html(data);
+                        },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                            alert(errorThrown);
+                        }
+                    });
+            });
+        });
+    </script>
+}
+

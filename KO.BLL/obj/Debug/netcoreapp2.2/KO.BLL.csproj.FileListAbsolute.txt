@@ -1,0 +1,16 @@
+C:\Users\Merc\source\repos\KO\KO.BLL\bin\Debug\netcoreapp2.2\KO.BLL.deps.json
+C:\Users\Merc\source\repos\KO\KO.BLL\bin\Debug\netcoreapp2.2\KO.BLL.dll
+C:\Users\Merc\source\repos\KO\KO.BLL\bin\Debug\netcoreapp2.2\KO.BLL.pdb
+C:\Users\Merc\source\repos\KO\KO.BLL\bin\Debug\netcoreapp2.2\KO.Core.dll
+C:\Users\Merc\source\repos\KO\KO.BLL\bin\Debug\netcoreapp2.2\KO.Entity.dll
+C:\Users\Merc\source\repos\KO\KO.BLL\bin\Debug\netcoreapp2.2\KO.Core.pdb
+C:\Users\Merc\source\repos\KO\KO.BLL\bin\Debug\netcoreapp2.2\KO.Entity.pdb
+C:\Users\Merc\source\repos\KO\KO.BLL\obj\Debug\netcoreapp2.2\KO.BLL.csprojAssemblyReference.cache
+C:\Users\Merc\source\repos\KO\KO.BLL\obj\Debug\netcoreapp2.2\KO.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Merc\source\repos\KO\KO.BLL\obj\Debug\netcoreapp2.2\KO.BLL.AssemblyInfoInputs.cache
+C:\Users\Merc\source\repos\KO\KO.BLL\obj\Debug\netcoreapp2.2\KO.BLL.AssemblyInfo.cs
+C:\Users\Merc\source\repos\KO\KO.BLL\obj\Debug\netcoreapp2.2\KO.BLL.csproj.CopyComplete
+C:\Users\Merc\source\repos\KO\KO.BLL\obj\Debug\netcoreapp2.2\KO.BLL.dll
+C:\Users\Merc\source\repos\KO\KO.BLL\obj\Debug\netcoreapp2.2\KO.BLL.pdb
+C:\Users\Merc\source\repos\KO\KO.BLL\bin\Debug\netcoreapp2.2\KO.DAL.dll
+C:\Users\Merc\source\repos\KO\KO.BLL\bin\Debug\netcoreapp2.2\KO.DAL.pdb

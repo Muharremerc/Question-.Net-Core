@@ -1,0 +1,12 @@
+C:\Users\Merc\source\repos\KO\KO.Entity\bin\Debug\netcoreapp2.2\KO.Entity.deps.json
+C:\Users\Merc\source\repos\KO\KO.Entity\bin\Debug\netcoreapp2.2\KO.Entity.dll
+C:\Users\Merc\source\repos\KO\KO.Entity\bin\Debug\netcoreapp2.2\KO.Entity.pdb
+C:\Users\Merc\source\repos\KO\KO.Entity\bin\Debug\netcoreapp2.2\KO.Core.dll
+C:\Users\Merc\source\repos\KO\KO.Entity\bin\Debug\netcoreapp2.2\KO.Core.pdb
+C:\Users\Merc\source\repos\KO\KO.Entity\obj\Debug\netcoreapp2.2\KO.Entity.csprojAssemblyReference.cache
+C:\Users\Merc\source\repos\KO\KO.Entity\obj\Debug\netcoreapp2.2\KO.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Merc\source\repos\KO\KO.Entity\obj\Debug\netcoreapp2.2\KO.Entity.AssemblyInfoInputs.cache
+C:\Users\Merc\source\repos\KO\KO.Entity\obj\Debug\netcoreapp2.2\KO.Entity.AssemblyInfo.cs
+C:\Users\Merc\source\repos\KO\KO.Entity\obj\Debug\netcoreapp2.2\KO.Entity.csproj.CopyComplete
+C:\Users\Merc\source\repos\KO\KO.Entity\obj\Debug\netcoreapp2.2\KO.Entity.dll
+C:\Users\Merc\source\repos\KO\KO.Entity\obj\Debug\netcoreapp2.2\KO.Entity.pdb

@@ -1,0 +1,48 @@
+﻿@model LoginPostDTO
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row">
+    <div class="col-lg-5"></div>
+    <div class="col-lg-7">
+        <form asp-action="Index" asp-controller="Login">
+            <table width="30%">
+                <tr>
+                  
+                    <td><h1 style="margin-left:26%">User Login</h1></td>
+                  
+                </tr>
+                <tr>
+                 
+                    <td> <input asp-for="Username" placeholder="Username" style="width:100%"/></td>
+                   
+                </tr>
+                <tr>
+                 
+                    <td><input asp-for="Password" placeholder="Password" style="width:100%" /></td>
+                  
+                </tr>
+                <tr>
+                  
+                    <td>
+                        @{
+                            if (TempData["Err"] != null)
+                            {
+                                <h4 style="color:red"> @TempData["Err"]</h4>
+                            }
+                        }
+                    </td>
+                   
+                </tr>
+                <tr>
+                   
+                    <td ><input type="submit" value="Login" style="float:right" /></td>
+                  
+                </tr>
+            </table>
+
+        </form>
+
+    </div>
+</div>
